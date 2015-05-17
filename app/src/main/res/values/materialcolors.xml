@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="MyColorPrimaryDark" type="color">#DD2C00</item>
+    <item name="MyColorPrimary" type="color">#FF5722</item>
+    <item name="MyTextColorPrimary" type="color">#78FFFFFF</item>
+    <item name="MyWindowBackground" type="color">#FFCCBC</item>
+    <item name="MyNavigationBarColor" type="color">#BF360C</item>
+    <item name="MyColorAccent" type="color">#FF9E80</item>
+
+    <integer-array name="materialcolors">
+        <item>@color/MyColorPrimaryDark</item>
+        <item>@color/MyColorPrimary</item>
+        <item>@color/MyTextColorPrimary</item>
+        <item>@color/MyWindowBackground</item>
+        <item>@color/MyNavigationBarColor</item>
+        <item>@color/MyColorAccent</item>
+    </integer-array>
+
+</resources> 

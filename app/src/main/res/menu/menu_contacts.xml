@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.danilodequeiroz.contactsdefy.view.ContactsActivity">
+
+    <group
+        android:id="@+id/list_menu">
+        <item android:id="@+id/create_new_contact"
+            android:title="Novo contato"
+            android:icon="@drawable/ic_action_contact_add"
+            android:orderInCategory="100"
+            app:showAsAction="always"/>
+    </group>
+
+    <group
+    android:id="@+id/add_menu">
+    <item android:id="@+id/save_new__contact"
+        android:title="Criar"
+        android:icon="@drawable/ic_action_navigation_check"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    </group>
+
+    <group
+        android:id="@+id/edit_menu">
+        <item android:id="@+id/edit_save__contact"
+            android:title="Salvar"
+            android:icon="@drawable/ic_action_content_save"
+            android:orderInCategory="100"
+            app:showAsAction="always"/>
+    </group>
+
+</menu>
