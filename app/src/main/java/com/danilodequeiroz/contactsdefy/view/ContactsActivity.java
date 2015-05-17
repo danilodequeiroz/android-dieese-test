@@ -3,6 +3,7 @@ package com.danilodequeiroz.contactsdefy.view;
 
 
 import android.app.FragmentManager;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -28,6 +29,7 @@ public class ContactsActivity extends ActionBarActivity  implements  android.sup
         transaction.add(R.id.main_layout, fg).commit();
         getSupportFragmentManager().addOnBackStackChangedListener(this);
         //Handle when activity is recreated like on orientation Change
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         shouldDisplayHomeUp();
     }
 
